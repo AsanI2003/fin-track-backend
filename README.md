@@ -1,14 +1,12 @@
----
 
-### fin-track-backend
 This README focuses on your backend engineering skills, API structure, and data security of FinTrack 
 
-```markdown
+
 # Fin-Track Backend
 
 The robust API powering the Fin-Track ecosystem. This service handles authentication, financial transactions, and subscription logic with a focus on data integrity and security.
 
-## 🛠️ Tech Stack
+## Tech Stack
 - **Runtime**: Node.js
 - **Framework**: Express.js
 - **Database**: MongoDB (Mongoose ODM)
@@ -38,27 +36,27 @@ The robust API powering the Fin-Track ecosystem. This service handles authentica
    ```bash
    git clone [https://github.com/AsanI2003/fin-track-backend.git](https://github.com/AsanI2003/fin-track-backend.git)
    cd fin-track-backend
+
 Install dependencies:
 
-Bash
-npm install
-Configure Environment:
+npm install <br> <br>
+Configure Environment: <br>
 Create a .env file in the root:
 
-Code snippet
-PORT=5000
+Code snippet <br>
+PORT=5000 <br>
 MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_secure_secret_key
+JWT_SECRET=your_secure_secret_key <br><br>
 Start the server:
 
-Bash
-npm run start # Production
-npm run dev   # Development with Nodemon
+
+npm run start # Production <br>
+npm run dev   # Development with Nodemon <br><br>
 Architecture
 
-src/
-├── controllers/  # Request handling logic
-├── models/       # Mongoose schemas (User, Transaction, Subscription)
-├── routes/       # API route definitions
-├── middleware/   # Auth and error handling middleware
-└── config/       # Database and server configuration
+src/ <br>
+├── controllers/  # Request handling logic <br>
+├── models/       # Mongoose schemas (User, Transaction, Subscription) <br>
+├── routes/       # API route definitions <br>
+├── middleware/   # Auth and error handling middleware <br>
+└── config/       # Database and server configuration <br>
